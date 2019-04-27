@@ -30,16 +30,28 @@ public class frame1 extends javax.swing.JFrame {
 
         button_ok = new javax.swing.JButton();
         txtNominal = new javax.swing.JTextField();
-        lbl_100rb = new javax.swing.JLabel();
-        lbl_50rb = new javax.swing.JLabel();
-        lbl_20rb = new javax.swing.JLabel();
-        lbl_10rb = new javax.swing.JLabel();
-        lbl_5rb = new javax.swing.JLabel();
-        lbl_2rb = new javax.swing.JLabel();
-        lbl_1rb = new javax.swing.JLabel();
-        lbl_500 = new javax.swing.JLabel();
-        lbl_200 = new javax.swing.JLabel();
-        lbl_100 = new javax.swing.JLabel();
+        lbl_1 = new javax.swing.JLabel();
+        lbl_2 = new javax.swing.JLabel();
+        lbl_3 = new javax.swing.JLabel();
+        lbl_4 = new javax.swing.JLabel();
+        lbl_5 = new javax.swing.JLabel();
+        lbl_6 = new javax.swing.JLabel();
+        lbl_7 = new javax.swing.JLabel();
+        lbl_8 = new javax.swing.JLabel();
+        lbl_9 = new javax.swing.JLabel();
+        lbl_10 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        lbl_sisa = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -53,64 +65,101 @@ public class frame1 extends javax.swing.JFrame {
 
         txtNominal.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
-        lbl_100rb.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_100rb.setText("jLabel1");
+        lbl_1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        lbl_1.setText("0");
 
-        lbl_50rb.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_50rb.setText("jLabel1");
+        lbl_2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        lbl_2.setText("0");
 
-        lbl_20rb.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_20rb.setText("jLabel2");
+        lbl_3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        lbl_3.setText("0");
 
-        lbl_10rb.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_10rb.setText("jLabel3");
+        lbl_4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        lbl_4.setText("0");
 
-        lbl_5rb.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_5rb.setText("jLabel4");
+        lbl_5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        lbl_5.setText("0");
 
-        lbl_2rb.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_2rb.setText("jLabel5");
+        lbl_6.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        lbl_6.setText("0");
 
-        lbl_1rb.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_1rb.setText("jLabel6");
+        lbl_7.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        lbl_7.setText("0");
 
-        lbl_500.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_500.setText("jLabel7");
+        lbl_8.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        lbl_8.setText("0");
 
-        lbl_200.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_200.setText("jLabel8");
+        lbl_9.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        lbl_9.setText("0");
 
-        lbl_100.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_100.setText("jLabel9");
+        lbl_10.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        lbl_10.setText("0");
+
+        jLabel1.setText("100.000");
+
+        jLabel2.setText("50.000");
+
+        jLabel3.setText("20.000");
+
+        jLabel4.setText("10.000");
+
+        jLabel5.setText("5.000");
+
+        jLabel6.setText("2.000");
+
+        jLabel7.setText("1.000");
+
+        jLabel8.setText("500");
+
+        jLabel9.setText("200");
+
+        jLabel10.setText("100");
+
+        jLabel11.setText("Sisa :");
+
+        lbl_sisa.setText("0");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGap(20, 20, 20)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(txtNominal, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(115, 115, 115)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(lbl_50rb)
-                            .addComponent(lbl_100rb)
-                            .addComponent(lbl_20rb)
-                            .addComponent(lbl_10rb)
-                            .addComponent(lbl_5rb))
-                        .addGap(70, 70, 70))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel1)
+                            .addComponent(jLabel2)
+                            .addComponent(jLabel3)
+                            .addComponent(jLabel4)
+                            .addComponent(jLabel5)
+                            .addComponent(jLabel11))
+                        .addGap(29, 29, 29)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(lbl_2)
+                                .addComponent(lbl_1)
+                                .addComponent(lbl_3)
+                                .addComponent(lbl_4)
+                                .addComponent(lbl_5))
                             .addComponent(button_ok)
-                            .addComponent(txtNominal, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(49, 49, 49)))
+                            .addComponent(lbl_sisa))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 85, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lbl_2rb)
-                    .addComponent(lbl_1rb)
-                    .addComponent(lbl_500)
-                    .addComponent(lbl_200)
-                    .addComponent(lbl_100))
-                .addContainerGap(127, Short.MAX_VALUE))
+                    .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel7, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel8, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel9, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel10, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lbl_6)
+                    .addComponent(lbl_7)
+                    .addComponent(lbl_8)
+                    .addComponent(lbl_9)
+                    .addComponent(lbl_10))
+                .addGap(79, 79, 79))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -121,25 +170,39 @@ public class frame1 extends javax.swing.JFrame {
                 .addComponent(button_ok, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(69, 69, 69)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lbl_100rb)
-                    .addComponent(lbl_2rb))
+                    .addComponent(lbl_1)
+                    .addComponent(lbl_6)
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel6))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lbl_50rb)
-                    .addComponent(lbl_1rb))
+                    .addComponent(lbl_2)
+                    .addComponent(lbl_7)
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel7))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lbl_20rb)
-                    .addComponent(lbl_500))
+                    .addComponent(lbl_3)
+                    .addComponent(lbl_8)
+                    .addComponent(jLabel3)
+                    .addComponent(jLabel8))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lbl_10rb)
-                    .addComponent(lbl_200))
+                    .addComponent(lbl_4)
+                    .addComponent(lbl_9)
+                    .addComponent(jLabel4)
+                    .addComponent(jLabel9))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lbl_5rb)
-                    .addComponent(lbl_100))
-                .addContainerGap(69, Short.MAX_VALUE))
+                    .addComponent(lbl_5)
+                    .addComponent(lbl_10)
+                    .addComponent(jLabel5)
+                    .addComponent(jLabel10))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel11)
+                    .addComponent(lbl_sisa))
+                .addGap(19, 19, 19))
         );
 
         pack();
@@ -149,32 +212,32 @@ public class frame1 extends javax.swing.JFrame {
         // TODO add your handling code here:
         
         int[] listUang = {100000,50000,20000,10000,5000,2000,1000,500,200,100};
-        ArrayList<Integer> hasil = new ArrayList();
+        int[] hasil = {0,0,0,0,0,0,0,0,0,0,0};
         int uangInput = Integer.parseInt(txtNominal.getText());
         int i = 0;
         int k = 0;
-        while (uangInput!=0) {
-            hasil.add(uangInput/listUang[i]);
-            uangInput = uangInput % listUang[i];
-            k = uangInput % listUang[i];
+        
+        while (uangInput!=0 && i<hasil.length) {
+            if (i<9) {
+                hasil[i] = (uangInput/listUang[i]);
+                uangInput = uangInput % listUang[i];
+                k = uangInput % listUang[i];
+            }
+            
             i++;
         }
         
-        lbl_100rb.setText(String.valueOf(hasil.get(0)));
-        lbl_50rb.setText(String.valueOf(hasil.get(1)));
-        lbl_20rb.setText(String.valueOf(hasil.get(2)));
-        lbl_10rb.setText(String.valueOf(hasil.get(3)));
-        lbl_5rb.setText(String.valueOf(hasil.get(4)));
-        lbl_2rb.setText(String.valueOf(hasil.get(5)));
-        lbl_1rb.setText(String.valueOf(hasil.get(6)));
-        lbl_500.setText(String.valueOf(hasil.get(7)));
-        lbl_200.setText(String.valueOf(hasil.get(8)));
-        lbl_100.setText(String.valueOf(hasil.get(9)));
-
-        
-        
-        
-        
+        lbl_1.setText(String.valueOf(hasil[0]));
+        lbl_2.setText(String.valueOf(hasil[1]));
+        lbl_3.setText(String.valueOf(hasil[2]));
+        lbl_4.setText(String.valueOf(hasil[3]));
+        lbl_5.setText(String.valueOf(hasil[4]));
+        lbl_6.setText(String.valueOf(hasil[5]));
+        lbl_7.setText(String.valueOf(hasil[6]));
+        lbl_8.setText(String.valueOf(hasil[7]));
+        lbl_9.setText(String.valueOf(hasil[8]));
+        lbl_10.setText(String.valueOf(hasil[9]));
+        lbl_sisa.setText(String.valueOf(k));   
     }//GEN-LAST:event_button_okActionPerformed
 
     /**
@@ -214,16 +277,28 @@ public class frame1 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton button_ok;
-    private javax.swing.JLabel lbl_100;
-    private javax.swing.JLabel lbl_100rb;
-    private javax.swing.JLabel lbl_10rb;
-    private javax.swing.JLabel lbl_1rb;
-    private javax.swing.JLabel lbl_200;
-    private javax.swing.JLabel lbl_20rb;
-    private javax.swing.JLabel lbl_2rb;
-    private javax.swing.JLabel lbl_500;
-    private javax.swing.JLabel lbl_50rb;
-    private javax.swing.JLabel lbl_5rb;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel lbl_1;
+    private javax.swing.JLabel lbl_10;
+    private javax.swing.JLabel lbl_2;
+    private javax.swing.JLabel lbl_3;
+    private javax.swing.JLabel lbl_4;
+    private javax.swing.JLabel lbl_5;
+    private javax.swing.JLabel lbl_6;
+    private javax.swing.JLabel lbl_7;
+    private javax.swing.JLabel lbl_8;
+    private javax.swing.JLabel lbl_9;
+    private javax.swing.JLabel lbl_sisa;
     private javax.swing.JTextField txtNominal;
     // End of variables declaration//GEN-END:variables
 }
