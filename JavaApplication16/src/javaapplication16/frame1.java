@@ -65,58 +65,60 @@ public class frame1 extends javax.swing.JFrame {
 
         txtNominal.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
-        lbl_1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_1.setText("0");
+        lbl_1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        lbl_1.setText("x0");
 
-        lbl_2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_2.setText("0");
+        lbl_2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        lbl_2.setText("x0");
 
-        lbl_3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_3.setText("0");
+        lbl_3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        lbl_3.setText("x0");
 
-        lbl_4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_4.setText("0");
+        lbl_4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        lbl_4.setText("x0");
 
-        lbl_5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_5.setText("0");
+        lbl_5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        lbl_5.setText("x0");
 
-        lbl_6.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_6.setText("0");
+        lbl_6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        lbl_6.setText("x0");
 
-        lbl_7.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_7.setText("0");
+        lbl_7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        lbl_7.setText("x0");
 
-        lbl_8.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_8.setText("0");
+        lbl_8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        lbl_8.setText("x0");
 
-        lbl_9.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_9.setText("0");
+        lbl_9.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        lbl_9.setText("x0");
 
-        lbl_10.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        lbl_10.setText("0");
+        lbl_10.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        lbl_10.setText("x0");
 
-        jLabel1.setText("100.000");
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication16/assets/Uang100000th2014.jpg"))); // NOI18N
 
-        jLabel2.setText("50.000");
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication16/assets/50000_old.jpg"))); // NOI18N
 
-        jLabel3.setText("20.000");
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication16/assets/20000_desain_baru.jpg"))); // NOI18N
 
-        jLabel4.setText("10.000");
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication16/assets/10000_upgrade1.gif"))); // NOI18N
 
-        jLabel5.setText("5.000");
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication16/assets/5001.gif"))); // NOI18N
 
-        jLabel6.setText("2.000");
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication16/assets/k2000_baru1.gif"))); // NOI18N
 
-        jLabel7.setText("1.000");
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication16/assets/L1001.gif"))); // NOI18N
 
-        jLabel8.setText("500");
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication16/assets/k500.jpg"))); // NOI18N
 
-        jLabel9.setText("200");
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication16/assets/k200.jpg"))); // NOI18N
 
-        jLabel10.setText("100");
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication16/assets/k100.jpg"))); // NOI18N
 
+        jLabel11.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel11.setText("Sisa :");
 
+        lbl_sisa.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbl_sisa.setText("0");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -124,42 +126,56 @@ public class frame1 extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(20, 20, 20)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(txtNominal, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createSequentialGroup()
+                            .addGap(43, 43, 43)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jLabel3)
+                                    .addComponent(jLabel2)
+                                    .addComponent(jLabel1)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(jLabel6)
+                                        .addComponent(jLabel5)))
+                                .addComponent(jLabel4))
+                            .addGap(18, 18, 18)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(layout.createSequentialGroup()
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(lbl_2)
+                                        .addComponent(lbl_3)
+                                        .addComponent(lbl_4)
+                                        .addComponent(lbl_5)
+                                        .addComponent(lbl_6))
+                                    .addGap(246, 246, 246))
+                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                    .addComponent(lbl_1)
+                                    .addGap(245, 245, 245))))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                            .addGap(72, 72, 72)
+                            .addComponent(button_ok)))
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel1)
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel3)
-                            .addComponent(jLabel4)
-                            .addComponent(jLabel5)
-                            .addComponent(jLabel11))
-                        .addGap(29, 29, 29)
+                        .addGap(210, 210, 210)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(lbl_2)
-                                .addComponent(lbl_1)
-                                .addComponent(lbl_3)
-                                .addComponent(lbl_4)
-                                .addComponent(lbl_5))
-                            .addComponent(button_ok)
-                            .addComponent(lbl_sisa))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 85, Short.MAX_VALUE)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel11)
+                                .addGap(29, 29, 29)
+                                .addComponent(lbl_sisa))
+                            .addComponent(txtNominal, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 5, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel10)
+                    .addComponent(jLabel7)
+                    .addComponent(jLabel8)
+                    .addComponent(jLabel9))
+                .addGap(30, 30, 30)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel7, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel8, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel9, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel10, javax.swing.GroupLayout.Alignment.TRAILING))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lbl_6)
-                    .addComponent(lbl_7)
-                    .addComponent(lbl_8)
-                    .addComponent(lbl_9)
-                    .addComponent(lbl_10))
-                .addGap(79, 79, 79))
+                    .addComponent(lbl_7, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(lbl_8, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(lbl_9, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(lbl_10, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addGap(190, 190, 190))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -168,41 +184,74 @@ public class frame1 extends javax.swing.JFrame {
                 .addComponent(txtNominal, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(button_ok, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(69, 69, 69)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lbl_1)
-                    .addComponent(lbl_6)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel6))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lbl_2)
-                    .addComponent(lbl_7)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel7))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lbl_3)
-                    .addComponent(lbl_8)
-                    .addComponent(jLabel3)
-                    .addComponent(jLabel8))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lbl_4)
-                    .addComponent(lbl_9)
-                    .addComponent(jLabel4)
-                    .addComponent(jLabel9))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lbl_5)
-                    .addComponent(lbl_10)
-                    .addComponent(jLabel5)
-                    .addComponent(jLabel10))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(69, 69, 69)
+                        .addComponent(jLabel1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel2)
+                                .addGap(8, 8, 8)
+                                .addComponent(jLabel3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel4)
+                                .addGap(18, 18, 18)
+                                .addComponent(jLabel5))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(277, 277, 277)
+                                .addComponent(lbl_5))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(99, 99, 99)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel7)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(36, 36, 36)
+                                        .addComponent(lbl_7)))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jLabel8))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(39, 39, 39)
+                                        .addComponent(lbl_8)))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(57, 57, 57)
+                                        .addComponent(lbl_9))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(18, 18, 18)
+                                        .addComponent(jLabel9)))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(55, 55, 55)
+                                        .addComponent(lbl_10))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(18, 18, 18)
+                                        .addComponent(jLabel10))))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(lbl_1)
+                                .addGap(61, 61, 61)
+                                .addComponent(lbl_2)
+                                .addGap(64, 64, 64)
+                                .addComponent(lbl_3)
+                                .addGap(75, 75, 75)
+                                .addComponent(lbl_4)))))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(lbl_6)
+                        .addGap(44, 44, 44)))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel11)
                     .addComponent(lbl_sisa))
-                .addGap(19, 19, 19))
+                .addGap(56, 56, 56))
         );
 
         pack();
@@ -217,8 +266,8 @@ public class frame1 extends javax.swing.JFrame {
         int i = 0;
         int k = 0;
         
-        while (uangInput!=0 && i<hasil.length) {
-            if (i<9) {
+        while (uangInput!=0 && i<=hasil.length) {
+            if (i<=9) {
                 hasil[i] = (uangInput/listUang[i]);
                 uangInput = uangInput % listUang[i];
                 k = uangInput % listUang[i];
@@ -227,16 +276,16 @@ public class frame1 extends javax.swing.JFrame {
             i++;
         }
         
-        lbl_1.setText(String.valueOf(hasil[0]));
-        lbl_2.setText(String.valueOf(hasil[1]));
-        lbl_3.setText(String.valueOf(hasil[2]));
-        lbl_4.setText(String.valueOf(hasil[3]));
-        lbl_5.setText(String.valueOf(hasil[4]));
-        lbl_6.setText(String.valueOf(hasil[5]));
-        lbl_7.setText(String.valueOf(hasil[6]));
-        lbl_8.setText(String.valueOf(hasil[7]));
-        lbl_9.setText(String.valueOf(hasil[8]));
-        lbl_10.setText(String.valueOf(hasil[9]));
+        lbl_1.setText("x"+String.valueOf(hasil[0]));
+        lbl_2.setText("x"+String.valueOf(hasil[1]));
+        lbl_3.setText("x"+String.valueOf(hasil[2]));
+        lbl_4.setText("x"+String.valueOf(hasil[3]));
+        lbl_5.setText("x"+String.valueOf(hasil[4]));
+        lbl_6.setText("x"+String.valueOf(hasil[5]));
+        lbl_7.setText("x"+String.valueOf(hasil[6]));
+        lbl_8.setText("x"+String.valueOf(hasil[7]));
+        lbl_9.setText("x"+String.valueOf(hasil[8]));
+        lbl_10.setText("x"+String.valueOf(hasil[9]));
         lbl_sisa.setText(String.valueOf(k));   
     }//GEN-LAST:event_button_okActionPerformed
 
