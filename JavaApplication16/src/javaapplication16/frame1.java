@@ -5,6 +5,8 @@
  */
 package javaapplication16;
 import java.lang.reflect.Array;
+import java.time.*;
+import java.time.Instant;
 import java.util.ArrayList;
 /**
  *
@@ -252,6 +254,8 @@ public class frame1 extends javax.swing.JFrame {
         int i = 0;
         int k = 0;
         
+        
+        long startTime = System.nanoTime();
         while (uangInput!=0 && i<=hasil.length) {
             if (i<=9) {
                 hasil[i] = (uangInput/listUang[i]);
@@ -261,6 +265,7 @@ public class frame1 extends javax.swing.JFrame {
             
             i++;
         }
+//        System.out.println(System.nanoTime());
         lbl_1.setText("x"+String.valueOf(hasil[0]));
         lbl_2.setText("x"+String.valueOf(hasil[1]));
         lbl_3.setText("x"+String.valueOf(hasil[2]));
@@ -271,7 +276,12 @@ public class frame1 extends javax.swing.JFrame {
         lbl_8.setText("x"+String.valueOf(hasil[7]));
         lbl_9.setText("x"+String.valueOf(hasil[8]));
         lbl_10.setText("x"+String.valueOf(hasil[9]));
-        lbl_sisa.setText(String.valueOf(k));   
+        lbl_sisa.setText(String.valueOf(k));
+        
+         long endTime = System.nanoTime();
+        
+         long durationInNano = (endTime - startTime);
+        System.out.println("Waktu eksekusi (milisekon) : "+durationInNano);
     }//GEN-LAST:event_button_okActionPerformed
 
     /**
